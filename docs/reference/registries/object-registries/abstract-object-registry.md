@@ -2,7 +2,7 @@
 
 The abstraction for Object Registry makes it possible to implement your own [object registry](./index) by extending a class.
 
-You don't _have_ to create a new class every time you want to make an object registry. You can instead opt to use [Immutable Collections](./immutable-collection) or [Mutable Collections](./mutable-collection), which will create simple object registries that don't have additional methods beyond the methods that come with this abstraction.
+You don't _have_ to create a new class every time you want to make an object registry. You can instead opt to use [a collection](./collections), which will create simple object registries that don't have additional methods beyond the methods that come with this abstraction.
 
 ## Example Registry
 

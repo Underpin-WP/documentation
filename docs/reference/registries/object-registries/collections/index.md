@@ -1,12 +1,12 @@
 # Collections
 
-A collection is a type of [Object Registry](../../), but it uses static builders to make it possible to build an object registry without needing to declare a dedicated class.
+A collection is a type of [Object Registry](../), but it uses static builders to make it possible to build an object registry without needing to declare a dedicated class.
 
 ## Creating Collections
 
 Since collections are object registries, you must specify what object each item in the registry will be. This is done using the `make` method. When a collection is made, it will require that all items added to it are an instance of the specified class.
 
-The examples below use a [Mutable Collection](./mutable-collection), however the `make` method works the same with all collections.
+The examples below use a [Mutable Collection](./collections/mutable-collection), however the `make` method works the same with all collections.
 
 ```php
 use \Underpin\Registries\Mutable_Collection;
