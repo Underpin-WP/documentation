@@ -55,7 +55,7 @@ operations chained before the call.
 
 ```php
 // [1,2]
-$filtered = (new List_Filter($ice_cream_order_items))->less_than(600)->filter();
+$filtered = (new List_Filter($ice_cream_order_items))->less_than('price', 600)->filter();
 ```
 
 ### Find Action
@@ -92,13 +92,13 @@ and `greater_than_or_equal`.
 
 ```php
 // [1,2]
-$filtered = (new List_Filter($ice_cream_order_items))->less_than(600)->filter();
+$filtered = (new List_Filter($ice_cream_order_items))->less_than('price', 600)->filter();
 // [1,2,3]
-$filtered = (new List_Filter($ice_cream_order_items))->greater_than(400)->filter();
+$filtered = (new List_Filter($ice_cream_order_items))->greater_than('price', 400)->filter();
 // [1,2,3]
-$filtered = (new List_Filter($ice_cream_order_items))->greater_than_or_equal(429)->filter();
+$filtered = (new List_Filter($ice_cream_order_items))->greater_than_or_equal('price', 429)->filter();
 // [0,1,2]
-$filtered = (new List_Filter($ice_cream_order_items))->less_than_or_equal(429)->filter();
+$filtered = (new List_Filter($ice_cream_order_items))->less_than_or_equal('price', 429)->filter();
 ```
 
 ### Instance Operations

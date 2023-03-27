@@ -1,6 +1,6 @@
 # List Sorter
 
-A list filter makes it possible to sort items from an array of objects using a chain-able query syntax. This feature
+A list sorter makes it possible to sort items from an array of objects using a chain-able query syntax. This feature
 is built-into [Object Registries](/reference/registries/object-registries) via the `Object_Registry::query` method,
 however it can also be used on raw arrays, as long as each item in the array has the same getters and setters you're
 sorting by. This can be done using fully-qualified objects, or by simply converting arrays to objects, as shown below.
