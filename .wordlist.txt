@@ -51,3 +51,12 @@ dir
 ABSPATH
 middleware
 APIs
+enums
+Enums
+usort
+readonly
+bool
+inheritDoc
+foreach
+fn
+acc
