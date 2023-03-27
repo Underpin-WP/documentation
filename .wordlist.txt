@@ -60,3 +60,10 @@ inheritDoc
 foreach
 fn
 acc
+namespace
+trailingslashit
+uri
+monorepo
+autoloader
+Scoper
+entrypoint
